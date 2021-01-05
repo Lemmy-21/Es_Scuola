@@ -1,3 +1,11 @@
+'''
+
+[es 4 - scheda]
+Scrivi un programma che a scelta dall'utente calcoli l'area di un quadrato, rettangolo
+triangolo e cerchio
+
+'''
+
 scelta = 5
 while scelta > 4:
     scelta = int(input("che area vuoi calcolare?\n 1. Quadrato\n 2. Triangolo\n 3. Rettangolo\n 4. Cerchio\n\n"))

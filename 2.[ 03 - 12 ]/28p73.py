@@ -1,3 +1,11 @@
+'''
+
+[es 28 - pag 73]
+Dato un elenco di studenti partecipanti a una gara sportiva
+di lancio del peso (nome studente, lancio), visualizza il valore 
+del lancio del vincitore (valore massimo).
+
+'''
 studenti = []
 lanci = []
 vincitori = []

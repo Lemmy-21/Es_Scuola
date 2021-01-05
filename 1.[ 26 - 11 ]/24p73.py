@@ -1,5 +1,12 @@
+'''
 
-''''
+[es 24 - pag 73]
+Alla fine della giornata di elezioni per il balottaggio tra due candidati, 
+siacquisiscono i voti ottenuti dai candidati. Scrivi il programma che calcoli 
+le percentuali ottenute da ciascun candidato e comunichi il nome del vincitore.
+
+'''
+
 voti_1 = int(input("voti del primo candidato\n"))
 voti_2 = int(input("voti del secondo candidato\n"))
 
@@ -14,19 +21,5 @@ elif voti_2_percent > voti_1_percent:
 else:
     print("pareggio")
 
-'''
 
-def convertitore(num):
-    if num == 0:
-        print(0)
-    elif num == 1:
-        print(1)
-    else:
-        dec_bin(num)
-
-def dec_bin(num):
-    if num > 1:
-        dec_bin(num/2)
-
-print(num,%2, end = "")
 

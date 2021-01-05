@@ -1,3 +1,11 @@
+'''
+
+[es 25 - pag 73]
+A un concorso pubblico hanno partecipato due candidati 
+prima in ordine alfabetico e poi in ordine decrescente 
+di punteggio.
+
+'''
 nome_1 = input("nome primo candidato\n").upper()
 nome_2 = input("nome seconddo candidato\n").upper()
 lista = [nome_1, nome_2]

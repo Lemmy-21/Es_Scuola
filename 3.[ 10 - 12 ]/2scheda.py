@@ -1,3 +1,11 @@
+'''
+
+[es 2 - scheda]
+Scrivi una programma che data in ingresso una lista A contenente n parole,
+restituisca in output una lista B di interi che rappresentano la lunghezza delle parole
+contenute in A.
+
+'''
 num_parole = int(input("quante parole vuoi inserire?\n"))
 parole = []
 numeri = []
