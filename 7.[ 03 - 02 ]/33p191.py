@@ -1,5 +1,6 @@
 '''
-[es 33 - pag 191]
+
+[es 33 - pag 191 ]
 Crea un programma che dia l'ordine con cui devono essere
 visitati dei pazienti secondo l'ordine con cui sono arrivati.
 
