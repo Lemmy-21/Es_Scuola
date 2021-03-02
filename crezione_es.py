@@ -1,5 +1,7 @@
 import os
 
+lettere = 'abcdefghijklmnopqrstuvwxyz'
+
 data = input("per che data bisogna consegnare l'esercizio?(dividi con dei punti)\
 es/ 04. 02 \n").split('. ')
 
@@ -30,7 +32,7 @@ riscrittura.close()
 
 cwd = os.getcwd()
 id_es = num_pag_es[0] + 'p' + num_pag_es[1] + '.py'
-cartella = cwd + "\\" + str(id_dir) + '.' + '[ ' + data[0] + ' - ' + data[1] + ' ]'
+cartella = cwd + "\\" + lettere[id_dir-1] + '.' + '[ ' + data[0] + ' - ' + data[1] + ' ]'
 testo_es = "'''\n\n" + "[ es " + num_pag_es[0] + ' - pag ' + \
 num_pag_es[1] + ' ]\n' + consegna_es + "\n\n'''"
 
